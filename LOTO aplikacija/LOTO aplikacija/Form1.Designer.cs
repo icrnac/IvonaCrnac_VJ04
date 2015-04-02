@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.groupBoxUplaceni = new System.Windows.Forms.GroupBox();
-            this.txtUplaceniBroj1 = new System.Windows.Forms.TextBox();
-            this.txtUplaceniBroj2 = new System.Windows.Forms.TextBox();
-            this.txtUplaceniBroj3 = new System.Windows.Forms.TextBox();
-            this.txtUplaceniBroj4 = new System.Windows.Forms.TextBox();
-            this.txtUplaceniBroj5 = new System.Windows.Forms.TextBox();
-            this.txtUplaceniBroj6 = new System.Windows.Forms.TextBox();
-            this.txtUplaceniBroj7 = new System.Windows.Forms.TextBox();
             this.btnUplati = new System.Windows.Forms.Button();
+            this.txtUplaceniBroj7 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj6 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj5 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj4 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj3 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj2 = new System.Windows.Forms.TextBox();
+            this.txtUplaceniBroj1 = new System.Windows.Forms.TextBox();
             this.groupBoxDobitni = new System.Windows.Forms.GroupBox();
             this.btnOdigraj = new System.Windows.Forms.Button();
             this.txtDobitniBroj7 = new System.Windows.Forms.TextBox();
@@ -69,55 +69,6 @@
             this.groupBoxUplaceni.TabStop = false;
             this.groupBoxUplaceni.Text = "Uplacena kombinacija";
             // 
-            // txtUplaceniBroj1
-            // 
-            this.txtUplaceniBroj1.Location = new System.Drawing.Point(7, 20);
-            this.txtUplaceniBroj1.Name = "txtUplaceniBroj1";
-            this.txtUplaceniBroj1.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj1.TabIndex = 0;
-            // 
-            // txtUplaceniBroj2
-            // 
-            this.txtUplaceniBroj2.Location = new System.Drawing.Point(53, 19);
-            this.txtUplaceniBroj2.Name = "txtUplaceniBroj2";
-            this.txtUplaceniBroj2.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj2.TabIndex = 1;
-            // 
-            // txtUplaceniBroj3
-            // 
-            this.txtUplaceniBroj3.Location = new System.Drawing.Point(99, 20);
-            this.txtUplaceniBroj3.Name = "txtUplaceniBroj3";
-            this.txtUplaceniBroj3.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj3.TabIndex = 2;
-            // 
-            // txtUplaceniBroj4
-            // 
-            this.txtUplaceniBroj4.Location = new System.Drawing.Point(145, 20);
-            this.txtUplaceniBroj4.Name = "txtUplaceniBroj4";
-            this.txtUplaceniBroj4.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj4.TabIndex = 3;
-            // 
-            // txtUplaceniBroj5
-            // 
-            this.txtUplaceniBroj5.Location = new System.Drawing.Point(191, 20);
-            this.txtUplaceniBroj5.Name = "txtUplaceniBroj5";
-            this.txtUplaceniBroj5.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj5.TabIndex = 4;
-            // 
-            // txtUplaceniBroj6
-            // 
-            this.txtUplaceniBroj6.Location = new System.Drawing.Point(237, 19);
-            this.txtUplaceniBroj6.Name = "txtUplaceniBroj6";
-            this.txtUplaceniBroj6.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj6.TabIndex = 5;
-            // 
-            // txtUplaceniBroj7
-            // 
-            this.txtUplaceniBroj7.Location = new System.Drawing.Point(283, 20);
-            this.txtUplaceniBroj7.Name = "txtUplaceniBroj7";
-            this.txtUplaceniBroj7.Size = new System.Drawing.Size(40, 20);
-            this.txtUplaceniBroj7.TabIndex = 6;
-            // 
             // btnUplati
             // 
             this.btnUplati.Location = new System.Drawing.Point(237, 60);
@@ -126,6 +77,56 @@
             this.btnUplati.TabIndex = 7;
             this.btnUplati.Text = "Uplati";
             this.btnUplati.UseVisualStyleBackColor = true;
+            this.btnUplati.Click += new System.EventHandler(this.btnUplati_Click);
+            // 
+            // txtUplaceniBroj7
+            // 
+            this.txtUplaceniBroj7.Location = new System.Drawing.Point(283, 20);
+            this.txtUplaceniBroj7.Name = "txtUplaceniBroj7";
+            this.txtUplaceniBroj7.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj7.TabIndex = 6;
+            // 
+            // txtUplaceniBroj6
+            // 
+            this.txtUplaceniBroj6.Location = new System.Drawing.Point(237, 19);
+            this.txtUplaceniBroj6.Name = "txtUplaceniBroj6";
+            this.txtUplaceniBroj6.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj6.TabIndex = 5;
+            // 
+            // txtUplaceniBroj5
+            // 
+            this.txtUplaceniBroj5.Location = new System.Drawing.Point(191, 20);
+            this.txtUplaceniBroj5.Name = "txtUplaceniBroj5";
+            this.txtUplaceniBroj5.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj5.TabIndex = 4;
+            // 
+            // txtUplaceniBroj4
+            // 
+            this.txtUplaceniBroj4.Location = new System.Drawing.Point(145, 20);
+            this.txtUplaceniBroj4.Name = "txtUplaceniBroj4";
+            this.txtUplaceniBroj4.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj4.TabIndex = 3;
+            // 
+            // txtUplaceniBroj3
+            // 
+            this.txtUplaceniBroj3.Location = new System.Drawing.Point(99, 20);
+            this.txtUplaceniBroj3.Name = "txtUplaceniBroj3";
+            this.txtUplaceniBroj3.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj3.TabIndex = 2;
+            // 
+            // txtUplaceniBroj2
+            // 
+            this.txtUplaceniBroj2.Location = new System.Drawing.Point(53, 19);
+            this.txtUplaceniBroj2.Name = "txtUplaceniBroj2";
+            this.txtUplaceniBroj2.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj2.TabIndex = 1;
+            // 
+            // txtUplaceniBroj1
+            // 
+            this.txtUplaceniBroj1.Location = new System.Drawing.Point(7, 20);
+            this.txtUplaceniBroj1.Name = "txtUplaceniBroj1";
+            this.txtUplaceniBroj1.Size = new System.Drawing.Size(40, 20);
+            this.txtUplaceniBroj1.TabIndex = 0;
             // 
             // groupBoxDobitni
             // 
@@ -152,6 +153,7 @@
             this.btnOdigraj.TabIndex = 7;
             this.btnOdigraj.Text = "Odigraj";
             this.btnOdigraj.UseVisualStyleBackColor = true;
+            this.btnOdigraj.Click += new System.EventHandler(this.btnOdigraj_Click);
             // 
             // txtDobitniBroj7
             // 
